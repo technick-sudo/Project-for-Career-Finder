@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Financial Manager Career Research</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+    }
+
+    body{
+      font-family:'Inter',sans-serif;
+      background:#0f172a;
+      color:white;
+      overflow-x:hidden;
+      line-height:1.6;
+    }
+
+    .background{
+      position:fixed;
+      inset:0;
+      background:
+      radial-gradient(circle at top left,#1d4ed8 0%,transparent 30%),
+      radial-gradient(circle at bottom right,#06b6d4 0%,transparent 25%),
+      #0f172a;
+      z-index:-1;
+    }
+
+    header{
+      padding:90px 10%;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      gap:40px;
+      flex-wrap:wrap;
+    }
+
+    .hero{
+      max-width:650px;
+    }
+
+    .tag{
+      display:inline-block;
+      padding:8px 16px;
+      border-radius:999px;
+      background:rgba(255,255,255,0.08);
+      border:1px solid rgba(255,255,255,0.1);
+      color:#7dd3fc;
+      margin-bottom:20px;
+      font-size:14px;
+      backdrop-filter:blur(10px);
+    }
+
+    h1{
+      font-size:62px;
+      line-height:1.05;
+      margin-bottom:24px;
+    }
+
+    .gradient{
+      background:linear-gradient(to right,#60a5fa,#22d3ee);
+      -webkit-background-clip:text;
+      -webkit-text-fill-color:transparent;
+    }
+
+    .hero p{
+      color:#cbd5e1;
+      font-size:18px;
+      margin-bottom:28px;
+    }
+
+    .button{
+      display:inline-block;
+      padding:14px 28px;
+      border-radius:14px;
+      background:linear-gradient(to right,#2563eb,#06b6d4);
+      text-decoration:none;
+      color:white;
+      font-weight:600;
+      transition:0.3s;
+      box-shadow:0 10px 25px rgba(37,99,235,0.35);
+    }
+
+    .button:hover{
+      transform:translateY(-4px);
+    }
+
+    .salary-card{
+      width:340px;
+      background:rgba(255,255,255,0.06);
+      border:1px solid rgba(255,255,255,0.08);
+      border-radius:28px;
+      padding:30px;
+      backdrop-filter:blur(18px);
+      box-shadow:0 10px 40px rgba(0,0,0,0.35);
+    }
+
+    .salary{
+      font-size:48px;
+      color:#67e8f9;
+      font-weight:700;
+      margin:14px 0;
+    }
+
+    section{
+      padding:70px 10%;
+    }
+
+    .section-title{
+      font-size:42px;
+      margin-bottom:14px;
+    }
+
+    .section-sub{
+      color:#94a3b8;
+      max-width:750px;
+      margin-bottom:45px;
+    }
+
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+      gap:24px;
+    }
+
+    .box{
+      background:rgba(255,255,255,0.05);
+      border:1px solid rgba(255,255,255,0.08);
+      border-radius:24px;
+      padding:28px;
+      transition:0.3s;
+    }
+
+    .box:hover{
+      transform:translateY(-5px);
+      border-color:#38bdf8;
+    }
+
+    .box h3{
+      color:#7dd3fc;
+      margin-bottom:15px;
+      font-size:22px;
+    }
+
+    .box p,
+    .box li{
+      color:#dbeafe;
+    }
+
+    ul{
+      padding-left:20px;
+    }
+
+    .timeline{
+      border-left:2px solid #38bdf8;
+      padding-left:24px;
+      margin-top:25px;
+    }
+
+    .timeline div{
+      margin-bottom:28px;
+    }
+
+    .timeline h4{
+      color:#7dd3fc;
+      margin-bottom:6px;
+    }
+
+    .video-link{
+      color:#38bdf8;
+      text-decoration:none;
+      font-weight:600;
+    }
+
+    .video-link:hover{
+      text-decoration:underline;
+    }
+
+    footer{
+      text-align:center;
+      padding:35px;
+      color:#64748b;
+      font-size:14px;
+    }
+
+    @media(max-width:768px){
+
+      h1{
+        font-size:46px;
+      }
+
+      .salary-card{
+        width:100%;
+      }
+
+    }
+
+  </style>
+</head>
+
+<body>
+
+<div class="background"></div>
+
+<header>
+
+  <div class="hero">
+
+    <div class="tag">
+      8th Grade Ms. McQuaig Career Research Project, Made by Nicholas Díaz.
+    </div>
+
+    <h1>
+      My Career Choice: <span class="gradient">Financial Manager</span>
+    </h1>
+
+    <p>
+      I chose financial management because I like business, money, and leadership. I also think it would be cool helping companies make smart financial decisions and manage their money better. Since I live near Holly Springs, North Carolina, there are a lot of growing businesses and banks around the Raleigh area, so this career could be useful where I live too.
+    </p>
+
+        <a 
+      class="video-link"
+      href="https://www.youtube.com/watch?v=dGRP1YH_tHc"
+      target="_blank"
+    >
+      Learn more.
+    </a>
+
+  </div>
+
+  <div class="salary-card">
+
+    <h2>Average Salary</h2>
+
+    <div class="salary">
+      $156K
+    </div>
+
+    <p>
+      Financial managers usually make a lot of money because they help companies handle important financial decisions.
+    </p>
+
+    <br>
+
+    <h2>Job Outlook</h2>
+
+    <p>
+      This career is expected to grow over the next few years because businesses will always need help managing money.
+    </p>
+
+  </div>
+
+</header>
+
+<section id="career">
+
+  <h2 class="section-title">
+    Why I Am Interested In This Career
+  </h2>
+
+  <p class="section-sub">
+    I think financial management sounds interesting because it mixes business, leadership, and problem solving together. I also like that you can work in many places like banks, companies, hospitals, or even sports organizations.
+  </p>
+
+  <div class="grid">
+
+    <div class="box">
+
+      <h3>Job Responsibilities</h3>
+
+      <ul>
+        <li>Manage company budgets</li>
+        <li>Create financial reports</li>
+        <li>Help businesses save money</li>
+        <li>Plan investments</li>
+        <li>Make financial decisions</li>
+      </ul>
+
+    </div>
+
+    <div class="box">
+
+      <h3>Education Needed</h3>
+
+      <p>
+        Most financial managers need a bachelor's degree in finance, accounting, or business. Some people also get an MBA later on.
+      </p>
+
+    </div>
+
+    <div class="box">
+
+      <h3>Skills Needed</h3>
+
+      <ul>
+        <li>Leadership</li>
+        <li>Communication</li>
+        <li>Math skills</li>
+        <li>Problem solving</li>
+        <li>Organization</li>
+      </ul>
+
+    </div>
+
+<div class="box">
+
+  <h3>Knowledge Needed</h3>
+
+  <ul>
+    <li>Business and management</li>
+    <li>Customer service</li>
+    <li>Math like algebra, statistics, and geometry</li>
+    <li>English and communication skills</li>
+    <li>Basic understanding of laws and government rules</li>
+  </ul>
+
+</div>
+
+<div class="box">
+
+  <h3>Important Abilities</h3>
+
+  <ul>
+    <li>Good speaking and listening skills</li>
+    <li>Problem solving and logical thinking</li>
+    <li>Using math to solve financial problems</li>
+    <li>Seeing patterns in numbers and data</li>
+    <li>Making smart decisions under pressure</li>
+  </ul>
+
+</div>
+
+<div class="box">
+
+  <h3>Technology Used</h3>
+
+  <ul>
+    <li>Microsoft PowerPoint</li>
+    <li>Microsoft Excel</li>
+    <li>Oracle PeopleSoft</li>
+    <li>Workday software</li>
+    <li>Microsoft SQL Server</li>
+  </ul>
+
+</div>
+
+    <div class="box">
+
+      <h3>Ideal Personality Traits</h3>
+
+      <ul>
+        <li>Responsible</li>
+        <li>Confident</li>
+        <li>Focused</li>
+        <li>Good with pressure</li>
+        <li>Hardworking</li>
+      </ul>
+
+    </div>
+
+    <div class="box">
+
+      <h3>Benefits</h3>
+
+      <ul>
+        <li>High salary</li>
+        <li>Good job opportunities</li>
+        <li>Can work in many industries</li>
+        <li>Leadership positions</li>
+        <li>Stable career</li>
+      </ul>
+
+    </div>
+
+    <div class="box">
+
+      <h3>Challenges</h3>
+
+      <ul>
+        <li>Can be stressful sometimes</li>
+        <li>Important responsibilities</li>
+        <li>Long hours during deadlines</li>
+        <li>Need to stay updated on the economy</li>
+      </ul>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section>
+
+  <h2 class="section-title">
+    Best Locations For This Career
+  </h2>
+
+  <p class="section-sub">
+    Financial managers are needed in places with a lot of businesses and banks.
+  </p>
+
+  <div class="grid">
+
+    <div class="box">
+      <h3>Raleigh, NC</h3>
+      <p>
+        Raleigh is close to Holly Springs and has many growing businesses and financial companies.
+      </p>
+    </div>
+
+    <div class="box">
+      <h3>Charlotte, NC</h3>
+      <p>
+        Charlotte is one of the biggest banking cities in the United States.
+      </p>
+    </div>
+
+    <div class="box">
+      <h3>New York City</h3>
+      <p>
+        Many major banks and finance companies are located there.
+      </p>
+    </div>
+
+    <div class="box">
+      <h3>Miami, FL</h3>
+      <p>
+        Miami has growing international businesses and financial companies.
+      </p>
+    </div>
+
+  </div>
+
+</section>
+
+<section>
+
+  <h2 class="section-title">
+    Job Outlook For The Next Five Years
+  </h2>
+
+  <p class="section-sub">
+    Financial management jobs are expected to grow because companies will continue needing help with budgeting and financial planning.
+  </p>
+
+  <div class="timeline">
+
+    <div>
+      <h4>2026</h4>
+      <p>More companies will need financial planning help.</p>
+    </div>
+
+    <div>
+      <h4>2027</h4>
+      <p>Technology and business growth will create more finance jobs.</p>
+    </div>
+
+    <div>
+      <h4>2028</h4>
+      <p>Financial managers will become even more important for businesses.</p>
+    </div>
+
+    <div>
+      <h4>2029</h4>
+      <p>There will still be strong demand for finance careers.</p>
+    </div>
+
+  </div>
+
+</section>
+
+<section>
+
+  <h2 class="section-title">
+    Video About This Career
+  </h2>
+
+  <div class="box">
+
+    <a 
+      class="video-link"
+      href="https://www.youtube.com/watch?v=Qw7cSH4K0mQ"
+      target="_blank"
+    >
+      Watch Financial Manager Career Video
+    </a>
+
+  </div>
+
+</section>
+
+<section>
+
+  <h2 class="section-title">
+    Interview Questions
+  </h2>
+
+  <div class="grid">
+
+    <div class="box">
+
+      <h3>Possible Questions</h3>
+
+      <ul>
+        <li>What do you enjoy most about your job?</li>
+        <li>What education did you need?</li>
+        <li>What skills are most important?</li>
+        <li>What challenges do you face?</li>
+        <li>Would you recommend this career?</li>
+      </ul>
+
+    </div>
+
+    <div class="box">
+
+      <h3>References</h3>
+
+      <ul>
+        <li>Mynextmove.org</li>
+      </ul>
+
+    </div>
+
+  </div>
+
+</section>
+
+<footer>
+  Financial Manager Career Research Project • Created By Nicholas Díaz
+</footer>
+
+</body>
+</html>
+
+
